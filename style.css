@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Manrope", sans-serif;
+}
+
+.container{
+    padding: 20px;
+}
+
+.container header{
+    margin-bottom: 50px;
+}
+
+.container .balance{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.container .balance p{
+    color: 
+    #231F20;
+}
+
+.container .balance h1{
+    font-size: 40px;
+    color: #343031;
+}
+
+.container .balance .currency{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container .breakdown{
+    margin-bottom: 20px;
+    color: 
+    #231F20;
+}
+
+.container .breakdown .head{
+    margin-bottom: 20px;
+}
+
+.container .breakdown .cards{
+    display: flex;
+    gap: 25px;
+}
+
+.container .breakdown .cards .card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container .breakdown .cards .card{
+    padding: 20px;
+    border-radius: 20px;
+    color: 
+    #141414;
+}
+
+.container .breakdown .cards .card img{
+    margin-bottom: 10px;
+}
+
+.container .breakdown .cards .card article{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container .breakdown .cards .inherit{
+    background-color: #bbb8dd;
+    height: 150px;
+}
+
+.container .breakdown .cards .refund{
+    background-color: #d5e4b5;
+    height: 200px;
+}
+
+.container .breakdown .total{
+    background-color: #D9EADA ;
+    height: 200px;
+}
+
+.container .transactions p{
+    margin-bottom: 20px;
+}
+
+.container .transactions .profiles{
+    display: flex;
+    gap: 10px;
+}
+
+.image-container{
+    margin-top: 20px;
+}
